@@ -6,6 +6,7 @@ body > *{
     height: 200px;
     width: 200px;
     padding: 70px;
+    overflow: hidden;
 }
 #info{
     color:white;
@@ -31,7 +32,5 @@ body > *{
     background-color: black;
     opacity: 50%;
     bottom: 50px;
-    position: absolute;
-    right: 10px;
-    left: 10px;
+    margin: -100px;
 }
