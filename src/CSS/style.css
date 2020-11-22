@@ -1,0 +1,22 @@
+body > *{
+    margin: 0;
+}
+.parent{
+    background: linear-gradient(orange, magenta);
+    box-sizing: initial;
+}
+#info{
+    color:white;
+
+}
+
+#circle1{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    opacity: 50%;
+    margin-top: -50px;
+}
+
+#circle2{}
