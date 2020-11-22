@@ -5,6 +5,7 @@ body > *{
     background: linear-gradient(orange, magenta);
     height: 200px;
     width: 200px;
+    padding: 70px;
 }
 #info{
     color:white;
@@ -13,11 +14,24 @@ body > *{
 
 #circle1{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-color: white;
     opacity: 50%;
     margin-top: -50px;
+    position: relative;
+    right: 50px;
+    left: 50px;
 }
 
-#circle2{}
+#circle2{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    opacity: 50%;
+    bottom: 50px;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+}
